@@ -2,7 +2,7 @@ using System;
 
 namespace snake__and__ladder_project
 {
-    class Sanke_ladder_uc1
+    class Sanke_ladder_uc2
     {
         static void Main(string[] args)
         {
@@ -19,6 +19,7 @@ namespace snake__and__ladder_project
             int Move = random.Next(1,6);
             int option = random.Next(0, 2);
             Console.WriteLine("game start position is:" +position);
+	    Console.WriteLine("Got the move:" +Move);
 
         }
     }
